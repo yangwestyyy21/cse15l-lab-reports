@@ -7,6 +7,7 @@
 ## Part 1:
 
 Here's some screenshots from lab 1 part 2
+
 ![Screenshot 2022-01-12 203308](https://user-images.githubusercontent.com/33038975/149266839-4e656872-cb66-41bd-b93b-338780c68c66.png)
 
 ![Screenshot 2022-01-12 203238](https://user-images.githubusercontent.com/33038975/149266813-3e53f530-949d-4bc1-953a-ebdaade15353.png)
