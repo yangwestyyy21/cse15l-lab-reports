@@ -2,4 +2,4 @@ Hi world
 random spam
 fsdsadf
 
-# [Relative-link](./lab1report.md)
+# [Relative-link to lab report 1](./lab1report.md)
