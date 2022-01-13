@@ -7,6 +7,6 @@
   link to homepage: [title](https://yangwestyyy21.github.io/cse15l-lab-reports/index.html)
   
 ## Part 1:
-![alt text](Screenshot 2022-01-12 203308.jpg)
+![Screenshot 2022-01-12 203308](https://user-images.githubusercontent.com/33038975/149266839-4e656872-cb66-41bd-b93b-338780c68c66.png)
 
-![alt text](Screenshot 2022-01-12 203238).jpg
+![Screenshot 2022-01-12 203238](https://user-images.githubusercontent.com/33038975/149266813-3e53f530-949d-4bc1-953a-ebdaade15353.png)
