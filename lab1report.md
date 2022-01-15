@@ -35,7 +35,10 @@ To move files with scp you first create the file and write what you want with it
 
 ## Part 6: 
 
-The SSH key makes signing into the ssh directory much easier and faster, no more typing in the password every time. 
+The SSH key makes signing into the ssh directory much easier and faster, no more typing in the password every time. For a windows computer you first make a ssh key using the `ssh-keygen` command to make a fancy key box (pictured below). Then you should follow the steps on this site since there's a lot of things to do to setup on a Windows computer  [Microsoft website link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). You then save the key to your computer so it will automatically log in for you in the future.
+
+![sshkeything](https://user-images.githubusercontent.com/33038975/149608717-62311c0e-5bb7-4579-93b3-e30b43935a7f.png)
+
 
 ## Part 7: 
 
