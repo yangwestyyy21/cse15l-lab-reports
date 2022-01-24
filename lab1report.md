@@ -42,4 +42,7 @@ The SSH key makes signing into the ssh directory much easier and faster, no more
 
 ## Part 7: 
 
-To optimize the speed of which you transfer files and log into the ssh directory, there's many things you can do. The easiest is to copy paste and use keyboard shortcuts like the up key on the terminal. You can also use quotes to run multiple commands inside the ssh or use ';' to separate several different commands on one line. 
+To optimize the speed of which you transfer files and log into the ssh directory, there's many things you can do. The easiest is to copy paste and use keyboard shortcuts like the up key on the terminal. You can also use quotes to run multiple commands inside the ssh or use ';' to separate several different commands on one line. You can also put commands you want to run after a ```ssh``` command in ```"insert commands"``` to go into the ssh repository and run the commands on the same line. You can sava changes first with a ```scp``` command then use a ; to separate it from a ```ssh``` command into the directory, followed by the ```javac filename``` and running the file. (following screenshot shows how to do it in one line though I ran it without having the WhereAmI.java file open)
+
+![Screenshot 2022-01-24 110117](https://user-images.githubusercontent.com/33038975/150846981-8acd6288-31e3-42eb-bd33-2b1cae39b7ae.png)
+
