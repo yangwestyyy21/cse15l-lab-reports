@@ -19,23 +19,23 @@ Vscode was already installed on my computer but it's not hard to do. You just ne
 
 ## Part 3: 
 
-To remotely connect, you have to first find your corresponding account and reset you password. Then, you go on the terminal and type in `ssh _repository name_` and enter the passcode to sign in. 
+To remotely connect, you have to first find your corresponding account and reset you password. Then, you go on the terminal and type in ```ssh _repository name_``` and enter the passcode to sign in. 
 
 ## Part 4: 
 
-The commands in the SSH terminal are the same as the commands on your normal computer terminal. I tried out the ls command, cd into a folder I made, and also ls -all, and the other commands should work normally as well, except you're running them remotely on a different computer. There's an example of me running the command below.
+The commands in the SSH terminal are the same as the commands on your normal computer terminal. I tried out the ```ls``` command, ```cd``` into a folder I made, and also ```ls -all```, and the other commands should work normally as well, except you're running them remotely on a different computer. There's an example of me running the command below.
 
 ![sshtrycommand](https://user-images.githubusercontent.com/33038975/149608279-52d3d5af-e58a-4143-9b4d-a93c9aa7a7bd.png)
 
 ## Part 5:
 
-To move files with scp you first create the file and write what you want with it. Then, you make sure you're on your computer's directory, if you're in the ssh already it will fail (as pictured below). Then you type in `scp _filename_ _repository name_` and it will prompt you for the password and you can copy it in. In the picture below it shows me copying some file to the directory. 
+To move files with ```scp``` you first create the file and write what you want with it. Then, you make sure you're on your computer's directory, if you're in the ssh already it will fail (as pictured below). Then you type in ```scp _filename_ _repository name_``` and it will prompt you for the password and you can copy it in. In the picture below it shows me copying some file to the directory. 
 
 ![scptossh](https://user-images.githubusercontent.com/33038975/149608498-d079e853-4622-4bb4-ae63-1c0eb2260b71.png)
 
 ## Part 6: 
 
-The SSH key makes signing into the ssh directory much easier and faster, no more typing in the password every time. For a windows computer you first make a ssh key using the `ssh-keygen` command to make a fancy key box (pictured below). Then you should follow the steps on this site since there's a lot of things to do to setup on a Windows computer  [Microsoft website link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). You then save the key to your computer so it will automatically log in for you in the future.
+The SSH key makes signing into the ssh directory much easier and faster, no more typing in the password every time. For a windows computer you first make a ssh key using the ```ssh-keygen``` command to make a fancy key box (pictured below). Then you should follow the steps on this site since there's a lot of things to do to setup on a Windows computer  [Microsoft website link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). You then save the key to your computer so it will automatically log in for you in the future.
 
 ![sshkeything](https://user-images.githubusercontent.com/33038975/149608717-62311c0e-5bb7-4579-93b3-e30b43935a7f.png)
 
