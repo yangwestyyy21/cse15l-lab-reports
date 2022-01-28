@@ -11,7 +11,7 @@ bug: ![codechange1error](https://user-images.githubusercontent.com/33038975/1514
 
 test file: https://github.com/yangwestyyy21/markdown-parse/blob/47e001f98db4b81a2b63fef114e3d53ac7f9d886/breakcode.md
 
-explanation: 
+explanation: The bug here is that if a line has a website with a url with 2 sets of paranthesis like *(google.com/search")("/url)*, the file will only output the website's url up to the first paranthesis and completely skip everything after it. In the test file above, there was a case of a website as mentioned above, so it put out the wrong output. My code change attempted to solve this issue by saving the location of the current last ']' symbol and the next '\[' symbol to find the very last ')' symbol before the next '\[' in order to not prematurely stop. However it didn't work, and will be solved later.
 
 ## Code change 2
 
