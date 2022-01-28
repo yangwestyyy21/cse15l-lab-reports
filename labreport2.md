@@ -32,7 +32,7 @@ bug: ![codechange3error](https://user-images.githubusercontent.com/33038975/1514
 
 test file: https://github.com/yangwestyyy21/markdown-parse/blob/67a29acae95912e07ba51c18ab2b34bad19a4244/test-file.md!
 
-[codechange3tester](https://user-images.githubusercontent.com/33038975/151486196-bfa59dcd-2cbb-476e-b385-26f63489eda6.png)
+![codechange3tester](https://user-images.githubusercontent.com/33038975/151486196-bfa59dcd-2cbb-476e-b385-26f63489eda6.png)
 
 ![codechange3solvedalltests](https://user-images.githubusercontent.com/33038975/151486178-9b81113b-85b6-4748-a1db-8c47e2931452.png)
 
