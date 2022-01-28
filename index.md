@@ -17,4 +17,4 @@ random spam fsdsadf
 
 ## [Link to lab report 1](./lab1report.md)
 
-## [Link to lab report 2](https://github.com/yangwestyyy21/cse15l-lab-reports/blob/8212e8dfdde7fa8af5814401891a9dfae91fc248/labreport2.md)
+## [Link to lab report 2](./labreport2.md)
