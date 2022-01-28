@@ -16,3 +16,5 @@ random spam fsdsadf
 ![windowsimage](https://user-images.githubusercontent.com/33038975/149262752-57a443eb-86e9-4a38-8634-883450d81c7b.jpeg)
 
 ## [Link to lab report 1](./lab1report.md)
+
+## [Link to lab report 2](https://github.com/yangwestyyy21/cse15l-lab-reports/blob/8212e8dfdde7fa8af5814401891a9dfae91fc248/labreport2.md)
