@@ -4,6 +4,8 @@
   
 ## Streamlining SSH config
 
+*note that my files have different names than the examples on the cse15 website
+
 .ssh/config file screenshot:
 
 ![ssh config](https://user-images.githubusercontent.com/33038975/153534097-fb5c5489-c5ba-4054-be62-cfc949944d5a.png)
