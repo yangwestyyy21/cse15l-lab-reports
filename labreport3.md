@@ -4,8 +4,8 @@
   
 ## Streamlining SSH config
 
-![ssh config](https://user-images.githubusercontent.com/33038975/153533813-e7bbfcb2-3043-4751-a1a0-1590ebac1c6f.png)
+![ssh config](https://user-images.githubusercontent.com/33038975/153534097-fb5c5489-c5ba-4054-be62-cfc949944d5a.png)
 
-![Screenshot (6)](https://user-images.githubusercontent.com/33038975/153533829-32946bde-b928-4893-b8ad-d7bef0b77985.png)
+![ssh](https://user-images.githubusercontent.com/33038975/153534103-a41aa1ca-afaf-4a59-ac31-2acad14dfae3.png)
 
-![Screenshot (7)](https://user-images.githubusercontent.com/33038975/153533836-c7670a17-f778-45c1-aaa6-a4aaca3e16f1.png)
+![scp](https://user-images.githubusercontent.com/33038975/153534110-5abf67b9-f4af-44b7-a831-ba5ae868b446.png)
