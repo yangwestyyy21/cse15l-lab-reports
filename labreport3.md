@@ -12,6 +12,6 @@
 
 ![ssh](https://user-images.githubusercontent.com/33038975/153534103-a41aa1ca-afaf-4a59-ac31-2acad14dfae3.png)
 
-```scp *random file* ieng6``` screenshot: 
+```scp markdown9.md ieng6``` screenshot: 
 
 ![scp](https://user-images.githubusercontent.com/33038975/153534110-5abf67b9-f4af-44b7-a831-ba5ae868b446.png)
