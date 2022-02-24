@@ -20,3 +20,5 @@ random spam fsdsadf
 ## [Link to lab report 2](./labreport2.md)
 
 ## [Link to lab report 3](./labreport3.md)
+
+## [Link to lab report 4](./labreport4.md)
