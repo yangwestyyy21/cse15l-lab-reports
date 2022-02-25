@@ -23,7 +23,7 @@ Test snippet 3 results would be [https://ucsd-cse15l-w22.github.io/]
 
 My MarkdownParseTest: 
 
-```import static org.junit.Assert.*;
+```import static org.junit.Assert.*;```
 import org.junit.*;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -58,6 +58,6 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         return contents;
     }
-}```
+}
 
 ## Running cases on the reviewed code
