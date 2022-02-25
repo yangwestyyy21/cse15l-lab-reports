@@ -31,6 +31,14 @@ Error messages (nothing works since I think this is still code from weeks 5 or 6
 
 ## Running cases on the reviewed code
 
+I had to add the test cases for snippets 1-3 and adjust the tester to test those, as their code didn't have that in the repository. Made changes in VIM and added them to the remote ssh. Images are below in this order (added tests, changed tester, error outputs): 
+
+![addteststoother](https://user-images.githubusercontent.com/33038975/155806599-2900b121-e174-480a-953c-d14fbcfa356b.png)
+
+![edittedothertester](https://user-images.githubusercontent.com/33038975/155806644-fd0612f8-f65b-4b6a-a4a2-84bcf22f2227.png)
+
+![Screenshot (20)](https://user-images.githubusercontent.com/33038975/155806661-5c40f138-0f68-4f93-90d5-413d833c74f1.png)
+
 ## Proposed solutions for each snippet case
 
 
