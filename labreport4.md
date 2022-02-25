@@ -19,7 +19,10 @@ Test snippet 3 results would be [https://ucsd-cse15l-w22.github.io/]
 
 ## Running cases on my code
 
+[Link to MarkdownParse](https://github.com/yangwestyyy21/markdown-parse)
+
 My MarkdownParseTest: 
+
 ```import static org.junit.Assert.*;
 import org.junit.*;
 import java.io.IOException;
@@ -60,6 +63,6 @@ public class MarkdownParseTest {
 	    String contents = Files.readString(fileName);
         return contents;
     }
-}```
+} ```
 
 ## Running cases on the reviewed code
