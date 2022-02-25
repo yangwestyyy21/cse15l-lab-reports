@@ -23,41 +23,10 @@ Test snippet 3 results would be [https://ucsd-cse15l-w22.github.io/]
 
 My MarkdownParseTest: 
 
-```import static org.junit.Assert.*;
-import org.junit.*;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.ArrayList;```
-public class MarkdownParseTest {
-    @Test
-    public void parse1() throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("`google.com");
-        String file = load("snippet1.md");
-        assertEquals(list, MarkdownParse.getLinks(file));
-    }
-    @Test
-    public void parse2() throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("a.com");
-        list.add("a.com(())");
-        list.add("example.com");
-        String file = load("snippet2.md");
-        assertEquals(list, MarkdownParse.getLinks(file));
-    }
-    @Test
-    public void parse3() throws IOException {
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("https://ucsd-cse15l-w22.github.io/");
-        String file = load("snippet3.md");
-        assertEquals(list, MarkdownParse.getLinks(file));
-    }
-    private String load(String words) throws IOException {
-		Path fileName = Path.of(words);
-	    String contents = Files.readString(fileName);
-        return contents;
-    }
-}
+![mdtest](https://user-images.githubusercontent.com/33038975/155674915-fcf0abc5-745f-4051-95d9-69cbdacd6f64.png)
+
+Error messages (nothing works since I think this is still code from weeks 5 or 6): 
+
+![owncodeerrormsg](https://user-images.githubusercontent.com/33038975/155674965-57eb6c1e-a99b-47b2-b6b4-c90884c07f06.png)
 
 ## Running cases on the reviewed code
