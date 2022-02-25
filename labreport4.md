@@ -23,12 +23,12 @@ Test snippet 3 results would be [https://ucsd-cse15l-w22.github.io/]
 
 My MarkdownParseTest: 
 
-```import static org.junit.Assert.*;```
+```import static org.junit.Assert.*;
 import org.junit.*;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.ArrayList;
+import java.util.ArrayList;```
 public class MarkdownParseTest {
     @Test
     public void parse1() throws IOException {
