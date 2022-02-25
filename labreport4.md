@@ -30,3 +30,7 @@ Error messages (nothing works since I think this is still code from weeks 5 or 6
 ![owncodeerrormsg](https://user-images.githubusercontent.com/33038975/155674965-57eb6c1e-a99b-47b2-b6b4-c90884c07f06.png)
 
 ## Running cases on the reviewed code
+
+## Proposed solutions for each snippet case
+
+
