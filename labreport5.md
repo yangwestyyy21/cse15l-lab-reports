@@ -20,4 +20,10 @@ Since my markdown parse had an empty output while the lab one had an output of "
 
 ## Test 270
 
+The actual code of the test file is:
 
+- foo
+
+      bar
+      
+The
