@@ -8,6 +8,14 @@
   
 ## Test 212
 
+Since my markdown parse had an empty output while the lab one had an output of "url", I think the difference is that my code checks for the ending of .hmtl or .com or other web domains to see whether the text in the brackets is a website, while the lab code does not do that. The actual code of the test file is the following: 
+
+```
+[foo]: /url
+```
+
+[foo]
+
 
 
 ## Test 270
