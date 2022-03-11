@@ -16,14 +16,14 @@ Since my markdown parse had an empty output while the lab one had an output of "
 
 [foo]
 
-
+With this I think that my code is correct in outputting a blank since there is no parathesis around the "url" test, meaning that the expected output should not have anything in it, and that means that there is no link. The lab code probably judged that the "/" indicated it was a link or something, then outputted "url". I don't think that would output a website link in many cases, so fixing the bug might be best done by exclusively checking for paranthesis. 
 
 ## Test 270
 
-The actual code of the test file is:
+My code output some weird gibberish with a bunch of "/", "\", and "\*", while the lab code outputted an empty string. I think the difference is becuase my code got confused when reading "\*" or the "/" characters and ended up outputting some mess of an output. The actual code of the test file is:
 
 - foo
 
       bar
       
-The
+There is not even brackets around something or parathesis in this case, so I'm pretty sure the correct answer should be empty and the lab code is correct. I honestly have no clue how my code ended up outputting what it did, it's probably due to it getting confused by the bullet point before "foo". 
