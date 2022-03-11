@@ -16,7 +16,7 @@ Since my markdown parse had an empty output while the lab one had an output of "
 
 [foo]
 
-With this I think that my code is correct in outputting a blank since there is no parathesis around the "url" test, meaning that the expected output should not have anything in it, and that means that there is no link. The lab code probably judged that the "/" indicated it was a link or something, then outputted "url". I don't think that would output a website link in many cases, so fixing the bug might be best done by exclusively checking for paranthesis. 
+With this I think that my code is correct in outputting a blank since there is no parathesis around the "url" test, meaning that the expected output should not have anything in it, and that means that there is no link. The lab code probably judged that the "/" indicated it was a link or something, then outputted "url". I don't think that would output a website link in many cases, so fixing the bug might be best done by exclusively checking for paranthesis on the code for the lab. 
 
 ## Test 270
 
@@ -26,4 +26,4 @@ My code output some weird gibberish with a bunch of "/", "\", and "\*", while th
 
       bar
       
-There is not even brackets around something or parathesis in this case, so I'm pretty sure the correct answer should be empty and the lab code is correct. I honestly have no clue how my code ended up outputting what it did, it's probably due to it getting confused by the bullet point before "foo". 
+There is not even brackets around something or parathesis in this case, so I'm pretty sure the correct answer should be empty and the lab code is correct. I honestly have no clue how my code ended up outputting what it did, it's probably due to it getting confused by the bullet point before "foo" and outputting it as "/bar\" and then being unable to find a title so it just output title in a weird way afterwards. I have no idea on how to address the bullet point, maybe just add an if condition that checks for them and returns empty.  
