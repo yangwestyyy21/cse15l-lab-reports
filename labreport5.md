@@ -16,7 +16,20 @@ Since my markdown parse had an empty output while the lab one had an output of "
 
 [foo]
 
-With this I think that my code is correct in outputting a blank since there is no parathesis around the "url" test, meaning that the expected output should not have anything in it, and that means that there is no link. The lab code probably judged that the "/" indicated it was a link or something, then outputted "url". I don't think that would output a website link in many cases, so fixing the bug might be best done by exclusively checking for paranthesis on the code for the lab. 
+### What is wrong on lab code: 
+```
+int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+int openParen = markdown.indexOf("(", nextCloseBracket);
+
+// The close paren we need may not be the next one in the file
+int closeParen = findCloseParen(markdown, openParen);
+
+if(nextOpenBracket == -1 || nextCloseBracket == -1
+      || closeParen == -1 || openParen == -1) {
+return toReturn;
+```
+
+With this I think that my code is correct in outputting a blank since there is no parathesis around the "url" test, meaning that the expected output should not have anything in it, and that means that there is no link. The lab code probably judged that the "/" indicated it was a link or something, then outputted "url". Another possibility is that the lab code just couldn't find a parenthesis in the current file and just skipped over to the next file, as indicated in the pasted code above. I don't think that would output a website link in many cases, so fixing the bug might be best done by exclusively checking for paranthesis on the code for the lab. 
 
 ## Test 270
 
@@ -26,4 +39,23 @@ My code output some weird gibberish with a bunch of "/", "\\", and "\*", while t
 
       bar
       
-There is not even brackets around something or parathesis in this case, so I'm pretty sure the correct answer should be empty and the lab code is correct. I honestly have no clue how my code ended up outputting what it did, it's probably due to it getting confused by the bullet point before "foo" and outputting it as "/bar\\" and then being unable to find a title so it just output title in a weird way afterwards. I have no idea on how to address the bullet point, maybe just add an if condition that checks for them and returns empty.  
+### What is wrong: 
+```
+int currentIndex = 0;
+    while(currentIndex < markdown.length()) {
+        int nextOpenBracket = markdown.indexOf("[", currentIndex);
+        int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
+        int openParen = markdown.indexOf("(", nextCloseBracket);
+        int closeParen = markdown.indexOf(")", openParen);
+        //first fix: avoid infinite loop
+        if (closeParen == -1 || openParen == -1 || nextCloseBracket == -1 || nextOpenBracket == -1){
+            break;
+        }
+        //second fix: avoid image
+        if (nextOpenBracket != 0 && markdown.substring(nextOpenBracket-1, nextOpenBracket).equals("!")){
+            currentIndex = closeParen + 1;
+            continue;
+        }
+```
+      
+There is not even brackets around something or parathesis in this case, so I'm pretty sure the correct answer should be empty and the lab code is correct. I honestly have no clue how my code ended up outputting what it did, it's probably due to it getting confused by the bullet point before "foo" and outputting it as "/bar\\" and then being unable to find a title so it just output title in a weird way afterwards. I have no idea on how to address the bullet point, maybe just add an if condition that checks for them and returns empty. The code pasted above does not have an issue with the pasted code, but the issue is there is some element that should be added before the assignment of values for nextCloseBracket and closeParen, so it doesn't get confused by the bullet point character.
